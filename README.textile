@@ -4,7 +4,7 @@ h2. Features
 
 * rack/sinatra-based application
 * Add a Access-Control-Allow-Origin header to your font file response (to enable cross-site web font embedding in Firefox).
-* gzip fonts (to make FOUC shorter). -- TODO
+* gzip fonts (to make FOUC shorter).
 * set of HTTP caching header.
 * caching via Rack::Cache (to reduce s3 costs). -- TODO
 * do referrer-checks via whitelist of allowed referrers. -- TODO
