@@ -4,7 +4,7 @@ require 'bundler'
 Bundler.require
 
 # gzip responses
-# add HTTP header "Accept-Encoding: gzip,deflate" to request
+# add a HTTP header "Accept-Encoding: gzip,deflate" to request
 use Rack::Deflater
 
 run S3Proxy
